@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the accompanying article."
+title: "Shipping accident risk under severe marine weather and climate change: analysis code"
+type: software
+license: MIT
+repository-code: "https://github.com/<github-username>/maritime-accident-climate-risk"
+authors:
+  - family-names: Wang
+    given-names: Ruihan
+    affiliation: "School of Civil and Environmental Engineering, Nanyang Technological University, Singapore"
+  - family-names: Verschuur
+    given-names: Jasper
+    affiliation: "Faculty of Technology, Policy and Management, Delft University of Technology, Delft, The Netherlands"
+  - family-names: Zhang
+    given-names: Mingyang
+    affiliation: "Department of Naval Architecture and Ocean Engineering, Shanghai Jiao Tong University, Shanghai, China"
+  - family-names: Kim
+    given-names: Youngrong
+    affiliation: "School of Civil and Environmental Engineering, Nanyang Technological University, Singapore"

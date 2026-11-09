@@ -1,0 +1,29 @@
+# Environment used for the analyses (versions from the authors' conda environment, Python 3.10.19).
+# Create with:  conda env create -f environment.yml   then:  conda activate maritime-risk
+name: maritime-risk
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy=2.2.6
+  - pandas=2.3.1
+  - scipy=1.15.3
+  - statsmodels=0.14.5
+  - pyarrow=21.0.0
+  - xarray=2025.6.1
+  - netcdf4=1.7.2
+  - rasterio=1.4.3
+  - shapely=2.1.1
+  - cartopy=0.25.0
+  - matplotlib=3.10.5
+  - cmocean                # colour maps for Fig. 1 (version not recorded)
+  - requests=2.34.2
+  - urllib3=2.5.0
+  - tqdm=4.67.1
+  - jupyterlab=4.4.5
+  - ipykernel=6.30.0
+  - pip
+  - pip:
+      - pyfixest==0.60.0     # PPML with high-dimensional fixed effects (Fig. 2)
+      - global-land-mask==1.0.0
+      - cdsapi==0.7.6        # only needed to download ERA5
