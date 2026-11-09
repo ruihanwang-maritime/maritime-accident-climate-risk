@@ -1,4 +1,4 @@
-# Shipping accident risk under severe marine weather and climate change — analysis code
+# Shipping accident risk under severe marine weather in a changing climate — analysis code
 
 Code accompanying the manuscript *"Shipping accident risk under severe marine weather and climate change"*
 (Wang, Verschuur, Zhang & Kim). Folders follow the paper: main-text Figs 1–5, Methods Eqs 1–11, and the
